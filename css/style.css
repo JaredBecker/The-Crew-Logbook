@@ -1,0 +1,54 @@
+body {
+    height: 100vh;
+    background-image: url('../images/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.main_wrapper {
+    padding: 35px;
+    color: #fff;
+    background: rgb(255, 255, 255, 0.3);
+    text-shadow: 1.5px 1.5px 1px #000;
+    border-radius: 10px;
+}
+
+.leading_content h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.game_type {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game_type i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.crew_member {
+    display: flex;
+    align-items: center;
+}
+
+.sticky_nav {
+    background: #fff;
+    padding: 10px;
+}
+
+.sticky_nav a {
+    color: #000;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.sticky_nav i {
+    font-size: 30px;
+}
